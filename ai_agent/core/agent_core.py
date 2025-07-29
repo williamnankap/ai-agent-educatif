@@ -2,6 +2,9 @@ import os
 import json
 from openai import OpenAI
 from dotenv import load_dotenv
+from data_manager.data_loader import DataLoader
+from data_manager.data_saver import DataSaver
+from ..utils.action_processor import ActionProcessor
 
 load_dotenv()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
@@ -9,10 +12,6 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 class EducationalAgent:
     def __init__(self):
-        from data_manager.data_loader import DataLoader
-        from data_manager.data_saver import DataSaver
-        from ..utils.action_processor import ActionProcessor
-        
         self.data_loader = DataLoader("data/")
         self.data_saver = DataSaver("data/")
         self.client = OpenAI(api_key=OPENAI_API_KEY)
