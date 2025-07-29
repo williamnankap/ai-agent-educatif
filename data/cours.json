@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nom": "Introduction à Python",
+    "code": "INFO101",
+    "credits": 3,
+    "professeur_id": 1,
+    "date_creation": "2024-01-25T09:00:00"
+  },
+  {
+    "id": 2,
+    "nom": "Algèbre Linéaire",
+    "code": "MATH201",
+    "credits": 4,
+    "professeur_id": 2,
+    "date_creation": "2024-01-26T11:30:00"
+  },
+  {
+    "id": 3,
+    "nom": "Francais Avancé",
+    "code": "FRAN201",
+    "credits": 4,
+    "professeur_id": 2,
+    "date_creation": "2024-01-26T11:30:00"
+  }
+]

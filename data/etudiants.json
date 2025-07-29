@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nom": "Alice Moreau",
+    "email": "alice.moreau@student.com",
+    "numero_etudiant": "E2024001",
+    "date_creation": "2024-01-20T14:00:00"
+  },
+  {
+    "id": 2,
+    "nom": "Bob Lefebvre",
+    "email": "bob.lefebvre@student.com",
+    "numero_etudiant": "E2024002",
+    "date_creation": "2024-01-21T10:15:00"
+  }
+]
